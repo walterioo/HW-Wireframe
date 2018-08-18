@@ -4,7 +4,7 @@ body {
     background-color: #777;
     width: 960px;
     font-size: 18px;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -45,11 +45,9 @@ p {
     margin-bottom: 10px;
 }
 
-#section-size {
-    width: 495px;
-}
 
-.container {
+
+.wrapper {
     display: flex;
 }
 
@@ -61,7 +59,6 @@ p {
 #left {
     float: left;
     margin-right: 10px;
-    width: 65%;
     flex: 1;
     background-color: #ebebeb;
     flex-grow: 1.5;
@@ -69,7 +66,6 @@ p {
 
 #right {
     float: left;
-    width: 33%;
     flex: 1;
 }
 
